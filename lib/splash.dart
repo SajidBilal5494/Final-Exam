@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
+
+import 'main.dart';
 void main(){
   runApp(new MaterialApp(
     home: new MyApp(),
@@ -30,26 +32,6 @@ class _MyAppState extends State<MyApp> {
         photoSize: 100.0,
         onClick: ()=>print("Flutter Egypt"),
         loaderColor: Colors.red
-    );
-  }
-}
-
-class AfterSplash extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-          title: new Text("Welcome In SplashScreen Package"),
-          automaticallyImplyLeading: false
-      ),
-      body: new Center(
-        child: new Text("SP18-BCS-115",
-          style: new TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30.0
-          ),),
-
-      ),
     );
   }
 }

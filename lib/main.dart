@@ -5,10 +5,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_sqflite/database/Helper.dart';
 import 'package:flutter_sqflite/model/User.dart';
 import 'package:flutter_sqflite/utils/Utils.dart';
-
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
+class AfterSplash extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
