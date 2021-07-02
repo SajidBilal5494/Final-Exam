@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
     return new SplashScreen(
         seconds: 14,
         navigateAfterSeconds: new AfterSplash(),
-        title: new Text('Welcome In SplashScreen',
+        title: new Text('Welcome Sajid Bilal',
           style: new TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 20.0
@@ -43,7 +43,7 @@ class AfterSplash extends StatelessWidget {
           automaticallyImplyLeading: false
       ),
       body: new Center(
-        child: new Text("Done!",
+        child: new Text("SP18-BCS-115",
           style: new TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 30.0
